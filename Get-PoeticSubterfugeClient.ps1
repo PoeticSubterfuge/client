@@ -8,7 +8,7 @@ function Get-PoeticSubterfugeClient {
 
 		[string] $OutFolder = $($env:USERPROFILE + '\Downloads\PoeticSubterfuge\client'),
 
-		[string] $ValidatedHash = '790B6EB1F35B566F984ABEF389377FF40E1DF90D13AF65A8DA41E2253B123917',
+		[string] $ValidatedHash = '447F0DE6FED5BB139BB09F93BF950882B200BF807F54D4A5B2AAF6AD25E9ECA5',
 
 		[string] $7zipUrl = 'https://github.com/PoeticSubterfuge/devops-glue/releases/download/latest/7za.exe',
 
@@ -23,6 +23,7 @@ function Get-PoeticSubterfugeClient {
 								'client.7z.004'
 								'client.7z.005'
 								'client.7z.006'
+								'client.7z.007'
 		),
 
 		[string] $OvaName = 'client.ova',
