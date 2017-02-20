@@ -8,7 +8,7 @@ function Get-PoeticSubterfugeClient {
 
 		[string] $OutFolder = $($env:USERPROFILE + '\Downloads\PoeticSubterfuge\client'),
 
-		[string] $ValidatedHash = '447F0DE6FED5BB139BB09F93BF950882B200BF807F54D4A5B2AAF6AD25E9ECA5',
+		[string] $ValidatedHash = 'F6E3D54896C930D4F5605FC64DD6C48714994DF6FCFF9C55E469592F022BF037',
 
 		[string] $7zipUrl = 'https://github.com/PoeticSubterfuge/devops-glue/releases/download/latest/7za.exe',
 
