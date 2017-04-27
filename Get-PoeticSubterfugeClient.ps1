@@ -8,7 +8,7 @@ function Get-PoeticSubterfugeClient {
 
 		[string] $OutFolder = $($env:USERPROFILE + '\Downloads\PoeticSubterfuge\client'),
 
-		[string] $ValidatedHash = 'F6E3D54896C930D4F5605FC64DD6C48714994DF6FCFF9C55E469592F022BF037',
+		[string] $ValidatedHash = 'da1eb438bf81aecdf31d868a4be87bc3be74579603137cc04ba8a41ebe0f1b4f',
 
 		[string] $7zipUrl = 'https://github.com/PoeticSubterfuge/devops-glue/releases/download/latest/7za.exe',
 
@@ -17,16 +17,14 @@ function Get-PoeticSubterfugeClient {
 		[string] $RepoUrl = 'https://github.com/PoeticSubterfuge/client/releases/download/latest/',
 
 		[array] $FileNames = @(
-								'client.7z.001'
-								'client.7z.002'
-								'client.7z.003'
-								'client.7z.004'
-								'client.7z.005'
-								'client.7z.006'
-								'client.7z.007'
+								'Windows10-Ent-1703-x64.7z.001'
+								'Windows10-Ent-1703-x64.7z.002'
+								'Windows10-Ent-1703-x64.7z.003'
+								'Windows10-Ent-1703-x64.7z.004'
+								'Windows10-Ent-1703-x64.7z.005'
 		),
 
-		[string] $OvaName = 'client.ova',
+		[string] $OvaName = 'Windows10-Ent-1703-x64.ova',
 
 		$WebClient = (New-Object System.Net.WebClient)
 
